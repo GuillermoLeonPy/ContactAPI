@@ -1,0 +1,22 @@
+spring:
+  h2:
+    console:
+      path: /h2-console
+      enabled: true
+      settings:
+        trace: true
+        web-allow-others: true
+data-source:
+  security-datasource:
+    url: jdbc:h2:mem:security;DB_CLOSE_DELAY=-1
+    driverClassName: org.h2.Driver
+    username: sa
+    password: sa
+
+kenectlabs:
+  api:
+    contacts:
+      url: "https://k-messages-api.herokuapp.com/api/v1/contacts"
+      connectionTimeout: 3000
+      readTimeOut: 3000
+      bearer-token: "J7ybt6jv6pdJ4gyQP9gNonsY"

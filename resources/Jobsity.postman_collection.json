@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "9a8bb188-27ef-45d2-b1ca-4138987e3e5d",
+		"name": "Jobsity",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7813871"
+	},
+	"item": [
+		{
+			"name": "ContactsAPI",
+			"item": [
+				{
+					"name": "GetContacts",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": [
+						{
+							"name": "GetContacts",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/v1/contacts",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"v1",
+										"contacts"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Content-Type-Options",
+									"value": "nosniff"
+								},
+								{
+									"key": "X-XSS-Protection",
+									"value": "1; mode=block"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, no-store, max-age=0, must-revalidate"
+								},
+								{
+									"key": "Pragma",
+									"value": "no-cache"
+								},
+								{
+									"key": "Expires",
+									"value": "0"
+								},
+								{
+									"key": "X-Frame-Options",
+									"value": "DENY"
+								},
+								{
+									"key": "Content-Security-Policy",
+									"value": "script-src 'self'"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 27 Oct 2024 11:18:29 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"jmadsen\",\n        \"email\": \"jmadsen@kenect.com\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:29:23.755Z\",\n        \"updatedAt\": \"2020-06-25T02:29:23.755Z\"\n    },\n    {\n        \"id\": 4,\n        \"name\": \"Jalisa Quigley\",\n        \"email\": \"clotilde.corkery@example.com\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.233Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.233Z\"\n    },\n    {\n        \"id\": 5,\n        \"name\": \"Elijah Wiza\",\n        \"email\": \"zachery.wunsch@example.com\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.240Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.240Z\"\n    },\n    {\n        \"id\": 6,\n        \"name\": \"Orval Langosh\",\n        \"email\": \"rodrick@example.com\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.248Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.248Z\"\n    },\n    {\n        \"id\": 7,\n        \"name\": \"Harvey King\",\n        \"email\": \"lyndsay@example.org\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.255Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.255Z\"\n    },\n    {\n        \"id\": 8,\n        \"name\": \"Mrs. Janice Muller\",\n        \"email\": \"corie@example.com\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.262Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.262Z\"\n    },\n    {\n        \"id\": 9,\n        \"name\": \"Ira Stoltenberg\",\n        \"email\": \"lauryn.langworth@example.org\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.269Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.269Z\"\n    },\n    {\n        \"id\": 10,\n        \"name\": \"Marcelo Pfeffer\",\n        \"email\": \"arnette.zieme@example.net\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.276Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.276Z\"\n    },\n    {\n        \"id\": 11,\n        \"name\": \"Maybell Aufderhar\",\n        \"email\": \"isiah_johnston@example.org\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.282Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.282Z\"\n    },\n    {\n        \"id\": 12,\n        \"name\": \"Van Schuppe PhD\",\n        \"email\": \"rebekah@example.net\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.290Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.290Z\"\n    },\n    {\n        \"id\": 13,\n        \"name\": \"Suzann Emmerich\",\n        \"email\": \"sergio@example.org\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.299Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.299Z\"\n    },\n    {\n        \"id\": 14,\n        \"name\": \"Clemmie Murray IV\",\n        \"email\": \"onita@example.org\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.305Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.305Z\"\n    },\n    {\n        \"id\": 15,\n        \"name\": \"Alisha Turcotte\",\n        \"email\": \"charlotte.lang@example.net\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.311Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.311Z\"\n    },\n    {\n        \"id\": 16,\n        \"name\": \"Rowena Ritchie\",\n        \"email\": \"carley@example.com\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.318Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.318Z\"\n    },\n    {\n        \"id\": 17,\n        \"name\": \"Joel O'Kon\",\n        \"email\": \"davis@example.net\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.327Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.327Z\"\n    },\n    {\n        \"id\": 18,\n        \"name\": \"Oswaldo Carroll\",\n        \"email\": \"annice_dicki@example.com\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.333Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.333Z\"\n    },\n    {\n        \"id\": 19,\n        \"name\": \"Johnie Langosh\",\n        \"email\": \"mikel@example.com\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.341Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.341Z\"\n    },\n    {\n        \"id\": 20,\n        \"name\": \"Louisa Lindgren\",\n        \"email\": \"phil_kemmer@example.org\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.348Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.348Z\"\n    },\n    {\n        \"id\": 21,\n        \"name\": \"Marlon Blanda\",\n        \"email\": \"izola@example.com\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.362Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.362Z\"\n    },\n    {\n        \"id\": 22,\n        \"name\": \"Tessa O'Keefe\",\n        \"email\": \"mel@example.org\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.368Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.368Z\"\n    },\n    {\n        \"id\": 23,\n        \"name\": \"Suzann Wilderman\",\n        \"email\": \"rodolfo_veum@example.net\",\n        \"source\": null,\n        \"createdAt\": \"2020-06-25T02:31:51.374Z\",\n        \"updatedAt\": \"2020-06-25T02:31:51.374Z\"\n    },\n    {\n        \"id\": 43,\n        \"name\": \"Ryan H\",\n        \"email\": \"ryanh@kenect.com\",\n        \"source\": null,\n        \"createdAt\": \"2020-08-10T17:38:55.131Z\",\n        \"updatedAt\": \"2020-08-10T17:38:55.131Z\"\n    },\n    {\n        \"id\": 44,\n        \"name\": \"J Anderson\",\n        \"email\": \"janderson@kenect.com\",\n        \"source\": null,\n        \"createdAt\": \"2021-05-03T19:08:42.190Z\",\n        \"updatedAt\": \"2021-05-03T19:08:42.190Z\"\n    },\n    {\n        \"id\": 51,\n        \"name\": \"Interview Candidate\",\n        \"email\": \"candidate@example.com\",\n        \"source\": null,\n        \"createdAt\": \"2021-06-16T15:15:56.363Z\",\n        \"updatedAt\": \"2021-06-16T15:15:56.363Z\"\n    },\n    {\n        \"id\": 52,\n        \"name\": \"Leah M\",\n        \"email\": \"lmcbeth@kenect.com\",\n        \"source\": null,\n        \"createdAt\": \"2021-06-21T16:35:53.678Z\",\n        \"updatedAt\": \"2021-06-21T16:35:53.678Z\"\n    }\n]"
+						}
+					]
+				}
+			]
+		}
+	]
+}
